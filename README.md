@@ -4,7 +4,8 @@
 
 ### Sobre
 ```
-Aplicação de criptografia de textos. Assim você poderá trocar mensagens secretas com outras pessoas que saibam o segredo da criptografia utilizada.
+Aplicação de criptografia de textos. Assim você poderá trocar mensagens secretas com outras pessoas 
+que saibam o segredo da criptografia utilizada.
 
 ```
 
