@@ -3,7 +3,11 @@
 ![logoOne](assets/imgs/logoOne.png) ![logoOne](assets/imgs/logoAlura.svg)
 
 ### Sobre
-> Aplicação de criptografia de textos. Assim você poderá trocar mensagens secretas com outras pessoas que saibam o segredo da criptografia utilizada.
+```
+Aplicação de criptografia de textos. Assim você poderá trocar mensagens secretas com outras pessoas que saibam o segredo da criptografia utilizada.
+
+```
+
 
 ### Regras da criptografia
 
