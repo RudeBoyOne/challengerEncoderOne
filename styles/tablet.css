@@ -1,0 +1,63 @@
+@media screen and (min-width: 415px) and (max-width: 1280px){
+    main{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    form{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    textarea{
+        width: 97%;
+    }
+
+    .buttonsForm {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    #buttonEncrypt{
+        width: 50%;
+    }
+
+    #buttonDecrypt{
+        width: 50%;
+    }
+
+    .divNoContentText{
+        width: 100%;
+        height: 186px;
+        position: unset;
+        margin-bottom: 20px;
+        width: 100%;
+        background-image: none;
+    }
+
+    .divNoContentTextDesktop > div {
+        margin-top: 7%;
+    }
+
+    .textCopy{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    #divCopySucess{
+        width: 100%;
+        gap: 25px;
+        justify-content: center;
+        height: 110px;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+
+}

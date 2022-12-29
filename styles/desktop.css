@@ -1,0 +1,152 @@
+body {
+    padding: 20px;
+    background-color: #e9ecf8;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+form{
+    width: 50%;
+    height: 80vh;
+}
+
+textarea{
+    border: none;
+    resize: none;
+    background-color: #e9ecf8;
+    font-size: xx-large;
+    height: 85%;
+    width: 98%;
+    outline: none;
+    color: #0a3871;
+    padding: 7px;
+}
+
+textarea::placeholder{
+    font-family: 'Inter', sans-serif;
+    font-size: xx-large;
+    color: #0a3871;
+}
+
+textarea:focus{
+    border: 2px solid #0a3871;
+    border-radius: 24px;
+    font-size: xx-large;    
+    padding: 7px;
+}
+
+.validationBox {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+#validation{
+    font-size: small;
+}
+
+#validationError{
+    font-size: small;
+    display: none;
+}
+
+button{
+    height: 67px;
+    border-radius: 24px;
+    border: 2px solid #0a3871;
+    font-size: medium;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.buttonsForm{
+    display: flex;
+    gap: 20px;
+    padding: 10px 0 0 0;
+}
+
+#buttonEncrypt{
+    background-color: #0a3871;
+    color: white;
+    width: 50%;
+}
+
+#buttonDecrypt{
+    background-color: #F3F5FC;
+    color: #0a3871;
+    width: 50%;
+}
+
+.divNoContentTextDesktop{
+    width: 23%;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 24px;
+    gap: 20px;
+    background-image: url("../assets/imgs/fundoCopy.svg");
+    background-repeat: no-repeat;
+    background-position: center top 11em;
+}
+
+.divNoContentTextDesktop > div {
+    margin-top: 120%;
+}
+
+.divNoContentText > div > h2{
+    font-size: xx-large;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#divCopySucess {
+    background-color: #ffffff;
+    border-radius: 24px;
+    width: 23%;
+    padding: 10px;
+    font-weight: 600;
+    display: none;
+    text-align: center;
+    color: #0a3871;
+    font-size: x-large;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+#textDecodificado{
+    background-color: #ffffff;
+    width: 96%;
+}
+
+.textCopy{
+    flex-direction: column;
+    width: 23%;
+    background-color: #ffffff;
+    border-radius: 24px;
+    gap: 10px;
+    padding: 20px;
+}
+
+#buttonCopy{
+    background-color: #ffffff;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.footer > div a{
+    text-decoration: none;
+}

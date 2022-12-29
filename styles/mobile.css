@@ -1,0 +1,55 @@
+@media screen and (max-width: 414px)  {
+
+    main {
+        flex-direction: column;
+    }
+
+    form {
+        flex-direction: column;
+        width: 100%;
+        height: 40%;
+    }
+
+    textarea{
+        width: 95%;
+    }
+
+    .buttonsForm{
+        flex-direction: column;
+    }
+
+    #buttonEncrypt{
+        width: 100%;
+    }
+
+    #buttonDecrypt{
+        width: 100%;
+    }
+
+    .divNoContentTextDesktop > div {
+        margin-top: 10%;
+    }
+
+    .textCopy {
+        width: 100%;
+        height: 40%;
+    }
+
+    .textCopyNone{
+        display: none;
+    }
+
+    #divCopySucess{
+        width: 100%;
+    }
+
+    .divNoContentText{
+        height: 186px;
+        width: 100%;
+        background-image: none;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+}
