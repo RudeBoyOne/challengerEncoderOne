@@ -6,7 +6,6 @@
 ```
 Aplicação de criptografia de textos. Assim você poderá trocar mensagens secretas com outras pessoas 
 que saibam o segredo da criptografia utilizada.
-
 ```
 
 
@@ -45,10 +44,12 @@ que saibam o segredo da criptografia utilizada.
   - responsividade (mobile, tablet e desktop)
 ***
 
-<center> 
+<center>
 
 ### Overview mobile, tablet e desktop 👇🏻
 
 ![visão aplicação versão mobile](assets/imgs/overviewMobile.png)![visão aplicação versão mobile](assets/imgs/overviewMobile%C2%B2.png)
 ![visão aplicação versão mobile](assets/imgs/overviewTable.png)![visão aplicação versão mobile](assets/imgs/overviewTable%C2%B2.png)
 ![visão aplicação versão desktop](assets/imgs/overview.png)
+
+</center> 
